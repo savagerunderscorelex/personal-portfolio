@@ -1,0 +1,29 @@
+.navpage {
+    color: #18251C;
+    display: inline-block;
+    border: 1px, solid #18251C;
+    padding: 8px;
+    background-color: #A6C9B6;
+
+}
+#overview {
+    background-color: #558B6E;
+    border: 2px, solid, #18251C;
+    width: auto;
+    height: 300px;
+}
+
+footer {
+    background-color: #273F32;
+    height: 50px;
+    color: #558B6E;
+}
+
+header {
+    background-color: #365946;
+}
+
+html {
+    /*This will be the background color of every page in the portfolio */
+    background-color: #365946;
+}
