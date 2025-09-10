@@ -4,15 +4,59 @@
     border: 1px, solid #18251C;
     padding: 8px;
     background-color: #A6C9B6;
-
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+.headings {
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
 #overview {
     background-color: #558B6E;
     border: 2px, solid, #18251C;
-    width: auto;
     height: 300px;
+    border-radius: 20px;
 }
 
+#overview-heading {
+    margin-left: 10px;
+}
+#banner {
+    width: 100%;
+    height: 400px;
+    
+}
+
+p, li {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+ul {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding-right: 1.2em;
+    text-align: left;
+    
+
+  
+}
+
+li::before {
+    content: "\2766";
+    margin: 5px;
+}
 footer {
     background-color: #273F32;
     height: 50px;
@@ -20,10 +64,10 @@ footer {
 }
 
 header {
-    background-color: #365946;
+    background-color: #4C0518;
 }
 
 html {
-    /*This will be the background color of every page in the portfolio */
-    background-color: #365946;
+    /*This will be the background photo of every page in the portfolio */
+    background-image: url("/photos/bannerbetter.jpeg");
 }
