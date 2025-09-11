@@ -4,6 +4,7 @@
         <title>Esther's Portfolio</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/icons/main.ico">
         <meta name="description" content="This is my portfolio website, including my coding projects, interests, hobbies, and some basic things about me!">
@@ -22,29 +23,34 @@
                 
             </nav>
         </header>
-        <!--<img src="/photos/3rdbanner.jpeg" id="banner" style="height: 300px;"> -->
+        <img src="/photos/apples.png" id="banner" style="height: 300px;">
         <main>
-            <h1 class="headings">Hi There!</h1>
-            <p>My name is Esther, and I am an aspiring coder, engineer, and artist. This website is meant to show who I am and what I love!</p>
+            <h1 id="introheading" class="headings"></h1>
+            <span id="cursor">|</span>
         </main>
-        
-        <section id="overview">
-            <h2 id="overview-heading" class="headings">Overview of My Portfolio</h2>
-            <ul>
-                <li>Interests</li>
-                <li>Hobbies</li>
-                <li>Extracurriculars</li>
-                <li>Clubs</li>
-                <li>Non-school Projects</li>
-                <li>My Personal Links</li>
-            </ul>
+        <section>
+            <p id="desc">My name is Esther, and I am an aspiring coder, engineer, and artist. This website is meant to show who I am and what I love!</p>
+        </section>
+        <section>
+            <div id="overview">
+                <h2 id="overview-heading" class="headings">Overview of My Portfolio</h2>
+                <ul>
+                    <li>Interests (what I want to get into)</li>
+                    <li>Hobbies (what I'm actually into)</li>
+                    <li>Extracurriculars (programs and other stuff)</li>
+                    <li>Clubs (after-school things)</li>
+                    <li>Non-school Projects (this + my previous project)</li>
+                    <li>My Personal Links (Github, Slack, maybe more in the future)</li>
+                </ul>
+            </div>
+    
         </section>
         <figure>
             <img src="">
         </figure>
         
         <footer>
-            <p>&copy; Savagerunderscorelex 2025 <a href="https://github.com/savagerunderscorelex" target="_blank">Github</a></p>
+            <p>&copy; Savagerunderscorelex 2025 <a href="https://github.com/savagerunderscorelex" target="_blank" id="github_home">Github</a></p>
         </footer>
     </body>
 </html>

@@ -1,9 +1,9 @@
 .navpage {
-    color: #18251C;
+    color: white;
     display: inline-block;
     border: 1px, solid #18251C;
     padding: 8px;
-    background-color: #A6C9B6;
+    background-color: #630720;
     text-decoration: none;
     margin-bottom: 10px;
     font-family: "Winky Rough", sans-serif;
@@ -15,23 +15,43 @@
     font-optical-sizing: auto;
     font-style: normal;
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 2px 3px 0 #000;
 }
 
-
+#desc {
+    color: white;
+}
+#github_home {
+    color: white;
+    text-decoration: underline;
+}
+#introheading {
+    font-size: 5em;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+#cursor {
+    font-size: 5em;
+    display: inline-block;
+    color: white;
+}
 #overview {
-    background-color: #558B6E;
-    border: 2px, solid, #18251C;
+    background-color: #630720;
+    border: 2px, solid, #4C0518;
     height: 300px;
     border-radius: 20px;
+    opacity: 0.9;
+
 }
 
 #overview-heading {
     margin-left: 10px;
 }
 #banner {
+    position: absolute;
     width: 100%;
     height: 400px;
+    z-index: -1;
     
 }
 
@@ -49,16 +69,16 @@ ul {
     padding-right: 1.2em;
     text-align: left;
     
-
+/* floral hearts unicode number: 2766 */
   
 }
 
 li::before {
-    content: "\2766";
+    content: "\1F394";
     margin: 5px;
 }
 footer {
-    background-color: #273F32;
+    background-color: #4C0518;
     height: 50px;
     color: #558B6E;
 }
