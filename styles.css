@@ -1,6 +1,6 @@
 .navpage {
     color: white;
-    display: inline-block;
+    display: inline-flex;
     border: 1px, solid #18251C;
     padding: 8px;
     background-color: #630720;
@@ -9,6 +9,9 @@
     font-family: "Winky Rough", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    justify-content: center;
+    
+    margin-left: 126px
 }
 .headings {
     font-family: "Winky Rough", sans-serif;
@@ -20,6 +23,7 @@
 
 #desc {
     color: white;
+    margin-left: 10px;
 }
 #github_home {
     color: white;
@@ -41,9 +45,13 @@
     height: 300px;
     border-radius: 20px;
     opacity: 0.9;
+    width: 1170px;
+    float: left;
 
 }
-
+.clearfix {
+    clear: both;
+}
 #overview-heading {
     margin-left: 10px;
 }
@@ -77,14 +85,61 @@ li::before {
     content: "\1F394";
     margin: 5px;
 }
-footer {
-    background-color: #4C0518;
-    height: 50px;
-    color: #558B6E;
+
+#dancing {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border:2px solid #4C0518;
+    display: flex;
+    float: left;
+}
+#girldotdotdot {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+
+}
+#footerbg {
+    background-color: #630720;
+    opacity: 0.9;
+    width: auto;
+    height: 100px;
+    border-radius: 20px;
+    z-index: -1;
+    
 }
 
-header {
+#footerdesc {
+    text-align: center;
+
+
+}
+#to-about {
+    text-align: right;
+    color: white;
+    
+}
+#para {
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 36px;
+  
+}
+#leftcorner {
+    z-index: -1;
+    position: absolute;
+    height: 500px;
+    opacity: 0.7;
+    margin-top: -230px;
+    width: 1600px;
+}
+#div-header {
     background-color: #4C0518;
+    opacity: 0.9;
+    z-index: -1;
+    border-radius: 20px;
 }
 
 html {

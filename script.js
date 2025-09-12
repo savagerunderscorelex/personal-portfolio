@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'Hi There!';
-var speed = 200;
+var txt = 'Hi There! :3';
+var speed = 250;
 
 function typeWriter() {
     if (i < txt.length) {
