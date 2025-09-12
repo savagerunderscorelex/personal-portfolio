@@ -1,18 +1,28 @@
 .navpage {
     color: white;
+    box-shadow: none;
     display: inline-flex;
-    border: 1px, solid #18251C;
     padding: 8px;
-    background-color: #630720;
+    background-color: #4C0518;
+    border-radius: 20px;
     text-decoration: none;
     margin-bottom: 10px;
     font-family: "Winky Rough", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     justify-content: center;
-    
-    margin-left: 126px
+    position: sticky;
+    margin-left: 70px;
+    margin-top: 10px;
+    transition: text-shadow 30s ease;
+    width: 150px;
+    height: 20px;
 }
+
+.navpage:hover {
+    box-shadow: 0px 0px 20px #A10730;
+}
+
 .headings {
     font-family: "Winky Rough", sans-serif;
     font-optical-sizing: auto;
@@ -119,7 +129,14 @@ li::before {
 #to-about {
     text-align: right;
     color: white;
-    
+    width: auto;
+    height: 20px;
+    box-shadow: none;
+    transition: box-shadow 5s ease;
+    position: sticky;
+}
+to-about:hover {
+    box-shadow: 0px 0px 20px #A10730;
 }
 #para {
     text-align: right;
@@ -140,6 +157,8 @@ li::before {
     opacity: 0.9;
     z-index: -1;
     border-radius: 20px;
+    width: auto;
+    height: 65px;
 }
 
 html {
