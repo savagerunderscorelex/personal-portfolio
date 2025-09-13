@@ -1,10 +1,11 @@
 var i = 0;
-var txt = 'Hi There! :3';
+var text = 'About Me'
 var speed = 250;
 
+/* TypeWriter Animation */
 function typeWriter() {
-    if (i < txt.length) {
-        document.getElementById("introheading").innerHTML += txt.charAt(i);
+    if (i < text.length) {
+        document.getElementById("aboutmeheading").innerHTML += text.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
     }
@@ -21,6 +22,7 @@ setInterval (() => {
         cursor = true;
     }
 }, speed);
+
 /* Triggering Events */
-window.onload = setInterval;
-window.onload = typeWriter;
+window.onload = setInterval; /* Cursor */
+window.onload = typeWriter; /* TypeWriter */

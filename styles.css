@@ -43,11 +43,32 @@
     color: white;
     margin-left: 10px;
 }
+#about {
+    background-color: #630720;
+    opacity: 0.9;
+    z-index: -1;
+    border-radius: 20px;
+    width: auto;
+    height: 300px;
+
+}
+#paragraphaboutme {
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
 #github_home {
     color: white;
     text-decoration: underline;
 }
 #introheading {
+    font-size: 5em;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+#aboutmeheading {
     font-size: 5em;
     display: inline-block;
     margin-bottom: -15px;
@@ -75,7 +96,7 @@
 }
 #banner {
     position: absolute;
-    width: 100%;
+    width: stretch;
     height: 400px;
     z-index: -1;
     
@@ -120,30 +141,47 @@ li::before {
 
 }
 
-#to-about {
+#to-next {
     color: white;
     display: inline-flex;
     position: relative;
     margin-top: 33px;
     margin-right: 2%;
     float: right;
-    height: 30px;
-    width: 100px;
+    height: auto;
+    width: auto;
     border-radius: 10px;
-    
-    
-}
-#to-about:hover {
-    box-shadow: 0px 0px 40px #A10730;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -3px 2px 0 #000;
+    text-decoration: none;
 }
 
-#leftcorner {
-    z-index: -1;
-    position: absolute;
-    height: 300px;
-    opacity: 0.7;
-    margin-top: -230px;
-    width: 1600px;
+#to-next:hover {
+    box-shadow: 0px 0px 40px #D70940;
+}
+#to-before {
+    color: white;
+    display: inline-flex;
+    position: relative;
+    margin-top: 33px;
+    margin-left: 2%;
+    float: left;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -3px 2px 0 #000;
+    text-decoration: none;
+}
+#to-before:hover {
+    box-shadow: 0px 0px 40px #D70940;
+
 }
 
 #footerbg {
