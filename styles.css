@@ -1,3 +1,11 @@
+#div-header {
+    background-color: #4C0518;
+    opacity: 0.9;
+    z-index: -1;
+    border-radius: 20px;
+    width: auto;
+    height: 65px;
+}
 .navpage {
     color: white;
     box-shadow: none;
@@ -73,7 +81,7 @@
     
 }
 
-p, li {
+p, li, #to-about {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-family: "Winky Rough", sans-serif;
@@ -111,56 +119,46 @@ li::before {
     margin-left: 30px;
 
 }
+
+#to-about {
+    color: white;
+    display: inline-flex;
+    position: relative;
+    margin-top: 33px;
+    margin-right: 2%;
+    float: right;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    
+    
+}
+#to-about:hover {
+    box-shadow: 0px 0px 40px #A10730;
+}
+
+#leftcorner {
+    z-index: -1;
+    position: absolute;
+    height: 300px;
+    opacity: 0.7;
+    margin-top: -230px;
+    width: 1600px;
+}
+
 #footerbg {
     background-color: #630720;
     opacity: 0.9;
     width: auto;
     height: 100px;
     border-radius: 20px;
-    z-index: -1;
-    
+    margin-top: 100px;
+
 }
 
 #footerdesc {
     text-align: center;
-
-
 }
-#to-about {
-    text-align: right;
-    color: white;
-    width: auto;
-    height: 20px;
-    box-shadow: none;
-    transition: box-shadow 5s ease;
-    position: sticky;
-}
-to-about:hover {
-    box-shadow: 0px 0px 20px #A10730;
-}
-#para {
-    text-align: right;
-    margin-right: 50px;
-    padding-top: 36px;
-  
-}
-#leftcorner {
-    z-index: -1;
-    position: absolute;
-    height: 500px;
-    opacity: 0.7;
-    margin-top: -230px;
-    width: 1600px;
-}
-#div-header {
-    background-color: #4C0518;
-    opacity: 0.9;
-    z-index: -1;
-    border-radius: 20px;
-    width: auto;
-    height: 65px;
-}
-
 html {
     /*This will be the background photo of every page in the portfolio */
     background-image: url("/photos/bannerbetter.jpeg");
