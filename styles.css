@@ -99,6 +99,46 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
     margin-bottom: -15px;
 }
+
+#projectsheading {
+    font-size: 5em;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#projects {
+    background-color: rgba(99, 7, 32, 0.9); /* #630720 */
+    z-index: -1;
+    border-radius: 20px;
+    width: auto;
+    height: 500px;
+}
+
+#project1 {
+    width: 450px;
+    height: 450px;
+    background-color: #4C0518;
+    border-radius: 20px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 2%;
+    
+    
+}
+
+#lordscode {
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+    border-radius: 15px 15px 0px 0px;
+}
+#staffdesc {
+    text-align: center;
+}
+#staffheading {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
 #cursor {
     font-size: 5em;
     display: inline-block;
@@ -117,6 +157,8 @@ body::-webkit-scrollbar-thumb {
 .clearfix {
     clear: both;
 }
+
+
 #overview-heading {
     margin-left: 10px;
 }
@@ -128,7 +170,7 @@ body::-webkit-scrollbar-thumb {
     
 }
 
-p, li, #to-about {
+p, li, a {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-family: "Winky Rough", sans-serif;
@@ -168,7 +210,6 @@ li::before {
 }
 
 #to-next {
-    color: white;
     display: inline-flex;
     position: relative;
     margin-top: 33px;
@@ -177,11 +218,6 @@ li::before {
     height: auto;
     width: auto;
     border-radius: 10px;
-    font-family: "Winky Rough", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: white;
-    text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -3px 2px 0 #000;
     text-decoration: none;
     transition-property: box-shadow;
     transition-duration: 1s;
@@ -192,7 +228,6 @@ li::before {
     box-shadow: 0px 0px 40px #D70940;
 }
 #to-before {
-    color: white;
     display: inline-flex;
     position: relative;
     margin-top: 33px;
@@ -201,11 +236,6 @@ li::before {
     height: auto;
     width: auto;
     border-radius: 10px;
-    font-family: "Winky Rough", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: white;
-    text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -3px 2px 0 #000;
     text-decoration: none;
     transition-property: box-shadow;
     transition-duration: 1s;
