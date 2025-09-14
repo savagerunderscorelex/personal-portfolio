@@ -286,5 +286,5 @@ li::before {
 }
 html {
     /*This will be the background photo of every page in the portfolio */
-    background-image: url("/photos/bannerbetter.jpeg");
+    background-image: url("photos/bannerbetter.jpeg");
 }
