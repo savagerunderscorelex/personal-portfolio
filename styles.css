@@ -22,9 +22,11 @@
     position: sticky;
     margin-left: 70px;
     margin-top: 10px;
-    transition: text-shadow 30s ease;
     width: 150px;
     height: 20px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
 .navpage:hover {
@@ -39,6 +41,29 @@
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 2px 3px 0 #000;
 }
 
+
+html::-webkit-scrollbar {
+    width: 15px
+}
+html::-webkit-scrollbar-track{
+    background:#4C0518;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #F4ECE1;
+    border-radius: 15px;
+    border:3px solid #630720;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #EDD4B2;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
 #desc {
     color: white;
     margin-left: 10px;
@@ -49,13 +74,14 @@
     z-index: -1;
     border-radius: 20px;
     width: auto;
-    height: 300px;
+    height: 500px;
 
 }
 #paragraphaboutme {
     padding-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
+
 
 }
 #github_home {
@@ -157,6 +183,9 @@ li::before {
     color: white;
     text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -3px 2px 0 #000;
     text-decoration: none;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
 #to-next:hover {
@@ -178,6 +207,9 @@ li::before {
     color: white;
     text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -3px 2px 0 #000;
     text-decoration: none;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 #to-before:hover {
     box-shadow: 0px 0px 40px #D70940;
@@ -190,7 +222,8 @@ li::before {
     width: auto;
     height: 100px;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
+    border:#4C0518 2px solid;
 
 }
 
