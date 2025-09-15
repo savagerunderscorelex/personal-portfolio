@@ -187,6 +187,17 @@ html::-webkit-scrollbar-thumb:hover {
     
 }
 
+#extradiv {
+    background-color: rgba(99, 7, 32, 0.9); /* #630720 */
+    z-index: -1;
+    border-radius: 20px;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 p, li, a {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -277,6 +288,7 @@ li::before {
 #footerdesc {
     text-align: center;
 }
+
 html {
     /*This will be the background photo of every page in the portfolio */
     background-image: url("./photos/bannerbetter.jpeg");
