@@ -196,7 +196,7 @@ html::-webkit-scrollbar-thumb:hover {
     height: 600px;
     transition: height 2s ease;
 }
-#droneclub {
+#droneclub, #robotics {
     background-color: #4C0518;
     box-shadow: none;
     overflow: hidden;
@@ -207,9 +207,10 @@ html::-webkit-scrollbar-thumb:hover {
     margin-left: 50px;
     margin-top: 50px;
     transition: height 2s ease-in-out, width 2s ease-in-out, box-shadow 2s ease-in;
+    text-align: center;
 }
 
-#information {
+.information {
     margin-top: 200px;
     text-align: center;
 }
@@ -219,9 +220,8 @@ html::-webkit-scrollbar-thumb:hover {
     box-shadow: 0px 0px 40px #D70940;
 }
 
-.extraheadings {
-    text-align: center;
-}
+
+    
 /* -------End----------*/
 p, li, a {
     color: white;
