@@ -9,4 +9,4 @@ The icons I used are favicon.cc. I originally planned to create all of my page i
 The GIF in my welcome page is from the website Glitter Graphics. If you want to learn more about it, just click on it!
 
 # Journey
-Before I started this project, I had limited knowledge of CSS and only knew a lot of HTML (from the freecodecamp course). Throughout the course of me coding the portfolio, I had to research how to adjust certain properties of the elements. The only part of this project I had to search up a tutorial for was the Javascript, and I had adjusted it to match my project. Making this portfolio taught me a lot about CSS, and I managed to 
+Before I started this project, I had limited knowledge of CSS and only knew a lot of HTML (from the freecodecamp course). Throughout the course of me coding the portfolio, I had to research how to adjust certain properties of the elements. The only part of this project I had to search up a tutorial for was the Javascript, and I had adjusted it to match my project. Making this portfolio taught me a lot about CSS, and I managed to figure out a lot of how the "language" worked through creating this website.
