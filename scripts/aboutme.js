@@ -1,18 +1,18 @@
 var i = 0;
 var text = 'About Me'
-var speed = 250;
+var textSpeed = 250;
 
 /* TypeWriter Animation */
 function typeWriter() {
     if (i < text.length) {
         document.getElementById("aboutmeheading").innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeWriter, speed);
+        setTimeout(typeWriter, textSpeed);
     }
 }
 /* Cursor Animation (so happy I could figure out how to put it next to the heading) */
 var cursor = true;
-var speed = 350;
+var cursorSpeed = 350;
 setInterval (() => {
     if (cursor) {
         document.getElementById('cursor').style.opacity = 0;
@@ -21,7 +21,7 @@ setInterval (() => {
         document.getElementById('cursor').style.opacity = 1;
         cursor = true;
     }
-}, speed);
+}, cursorSpeed);
 
 /* Triggering Events */
 window.onload = setInterval; /* Cursor */

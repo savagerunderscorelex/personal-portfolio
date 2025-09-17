@@ -84,7 +84,7 @@ html::-webkit-scrollbar-thumb:hover {
     color: white;
     text-decoration: underline;
 }
-#introheading, #aboutmeheading, #extracurricularsheading, #hobbiesheading {
+#introheading, #aboutmeheading, #extracurricularsheading, #hobbiesheading, #linksheading {
     font-size: 5em;
     display: inline-block;
     margin-bottom: -15px;
@@ -239,6 +239,15 @@ html::-webkit-scrollbar-thumb:hover {
     padding-top: 20px;
 }
 /* ---------End---------------*/
+/* ---------Links-----------*/
+#linksdiv {
+    width: 100%;
+    background-color: rgba(99, 7, 32, 0.9);
+    height: 650px;
+    z-index: -1;
+    border-radius: 20px;
+}
+/* --------End-----------------*/
 p, li, a {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

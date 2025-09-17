@@ -1,19 +1,19 @@
 var i = 0;
 var text = 'Extracurriculars';
-var speed = 280;
+var textSpeed = 280;
 
 /* Typewriter Animation */
 function typeWriter() {
     if (i < text.length) {
         document.getElementById("extracurricularsheading").innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeWriter, speed);
+        setTimeout(typeWriter, textSpeed);
     }
 }
 
 /* Cursor Animation */
 var cursor = true;
-var speed = 350;
+var cursorSpeed = 350;
 
 setInterval (() => {
     if (cursor) {
@@ -23,7 +23,7 @@ setInterval (() => {
         document.getElementById('cursor').style.opacity = 1;
         cursor = true;
     }
-}, speed);
+}, cursorSpeed);
 /* Triggering Events */
 window.onload = setInterval;
 window.onload = typeWriter; 
