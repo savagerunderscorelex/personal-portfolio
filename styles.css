@@ -243,9 +243,21 @@ html::-webkit-scrollbar-thumb:hover {
 #linksdiv {
     width: 100%;
     background-color: rgba(99, 7, 32, 0.9);
-    height: 650px;
+    height: 570px;
     z-index: -1;
     border-radius: 20px;
+}
+#firstlink {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.toweblinks {
+    font-size: 2em;
+    margin-left: 3%;
+}
+#thanks {
+    margin-left: 30px;
+    margin-top: 250px;
 }
 /* --------End-----------------*/
 p, li, a {
