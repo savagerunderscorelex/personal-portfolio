@@ -2,7 +2,7 @@ var i = 0;
 var text = 'Extracurriculars';
 var textSpeed = 280;
 
-/* Typewriter Animation */
+// TypeWriter Animation
 function typeWriter() {
     if (i < text.length) {
         document.getElementById("extracurricularsheading").innerHTML += text.charAt(i);
@@ -11,7 +11,7 @@ function typeWriter() {
     }
 }
 
-/* Cursor Animation */
+// Cursor Animation
 var cursor = true;
 var cursorSpeed = 350;
 
@@ -24,7 +24,7 @@ setInterval (() => {
         cursor = true;
     }
 }, cursorSpeed);
-/* Triggering Events */
+// Triggering Events
 window.onload = setInterval;
 window.onload = typeWriter; 
 

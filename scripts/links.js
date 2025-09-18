@@ -2,7 +2,7 @@ var i = 0;
 var text = "Links";
 var textSpeed = 250;
 
-/* TypeWriter Animation */
+// TypeWriter Animation 
 function typeWriter() {
     if (i < text.length) {
         document.getElementById("linksheading").innerHTML += text.charAt(i);
@@ -11,7 +11,7 @@ function typeWriter() {
     }
 }
 
-/* Cursor Animation */
+// Cursor Animation 
 var cursor = true;
 var cursorSpeed = 350;
 
@@ -25,6 +25,6 @@ setInterval (() => {
     }
 }, cursorSpeed);
 
-/* Triggering Events */
+// Triggering Events 
 window.onload = setInterval;
 window.onload = typeWriter;

@@ -1,10 +1,10 @@
-# Overview
-Now that I have one project under my belt, I decided to create a personal portfolio that includes my personal projects, coding experience, and other things about myself. This is not the most professional looking personal porfolio, but I wanted to try out my skills at HTML and CSS and also learn a bit of Javascript along the way. Making this project was a learning experience that I liked alot!
+ # Overview
+Now that I have one project under my belt, I decided to create a personal portfolio that includes my personal projects, coding experience, and other things about myself. This is not the most professional looking personal portfolio, but I wanted to try out my skills at HTML and CSS and also learn a bit of Javascript along the way. Making this project was a learning experience that I liked a lot!
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 # Content
 This portfolio website includes links to some of my profiles, information about my extracurriculars, information about my hobbies and interests, and also information about the projects that I've made before (which are only one project).
 
-The icons I used are favicon.cc. I originally planned to create all of my page icons, but I only designed two of them (the heart icon in the about me page and the little stick figure icon in the projects page). I didn't have as much time to spend individually creating them, but it was fun to create the icons that I added to my website. 
+The icons I used are favicon.cc. I originally planned to create all of my page icons, but I only designed two of them (the heart icon in the about me page and the little stick figure icon in the projects page). I didn't have as much time to spend individually creating them, but it was fun to create the icons that I added to my website.
 
 The GIF in my welcome page is from the website Glitter Graphics. If you want to learn more about it, just click on it!
 

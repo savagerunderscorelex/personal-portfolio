@@ -2,7 +2,7 @@ var i = 0;
 var text = 'Hobbies and Interests';
 var textSpeed = 250;
 
-/* Typewriter Animation */
+// Typewriter Animation 
 function typeWriter() {
     if (i < text.length) {
         document.getElementById("hobbiesheading").innerHTML += text.charAt(i);
@@ -11,7 +11,7 @@ function typeWriter() {
     }
 }
 
-/* Cursor Animation */
+// Cursor Animation 
 var cursor = true;
 var cursorSpeed = 350;
 
@@ -26,6 +26,6 @@ setInterval (() => {
     }
 }, cursorSpeed);
 
-/* Triggering Events */
-window.onload = setInterval; /* Cursor Blinking */
-window.onload = typeWriter; /* Typewriter effect */
+// Triggering Events
+window.onload = setInterval; // Cursor Blinking
+window.onload = typeWriter; // Typewriter effect 

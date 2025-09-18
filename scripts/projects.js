@@ -2,7 +2,7 @@ var i = 0;
 var text = "Projects";
 var textSpeed = 250;
 
-/* TypeWriter Animation */
+// TypeWriter Animation 
 function typeWriter () {
     if (i < text.length) {
         document.getElementById("projectsheading").innerHTML += text.charAt(i);
@@ -12,7 +12,7 @@ function typeWriter () {
     }
 }
 
-/* Cursor Animation */
+// Cursor Animation
 var cursor = true;
 var cursorSpeed = 350;
 
@@ -26,6 +26,6 @@ setInterval(() => {
     }
 }, cursorSpeed);
 
-/* Triggering Events */
-window.onload = setInterval; /* Cursor Animation */
-window.onload = typeWriter; /* Typewriter Animation */
+// Triggering Events
+window.onload = setInterval; // Cursor Animation 
+window.onload = typeWriter; // Typewriter Animation 
