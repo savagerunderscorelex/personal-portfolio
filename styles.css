@@ -101,39 +101,31 @@ html::-webkit-scrollbar-thumb:hover {
     z-index: -1;
     border-radius: 20px;
     width: auto;
-    height: 600px;
+    height: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
 }
 
-#project1 {
-    width: 450px;
-    height: 450px;
+.projects {
+    width: 20%;
+    height: 45%;
     background-color: #4C0518;
     border-radius: 20px;
-    float: left;
+    display: inline-block;
     margin-top: 75px;
-    margin-left: 10%;
     box-shadow: none;
     border: 15px solid #4C0518;
     transition: margin-top 2s, box-shadow 2s;
 }
-#project2 {
-    width: 450px;
-    height: 450px;
-    background-color: #4C0518;
-    border-radius: 20px;
-    border: 15px solid #4C0518;
-    float: right;
-    margin-right: 10%;
-    margin-top: 75px;
-    transition: margin-top 2s, box-shadow 2s;
-    box-shadow: none;
-}
 
-#project1:hover, #project2:hover {
+.projects:hover {
     margin-top: 10px;
     box-shadow:0px 0px 40px#D70940
 }
-#lordscode, #personalwebphoto {
+.project-photos {
     width: 100%;
     height: 50%;
     opacity: 1;
@@ -198,7 +190,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 .extrabutton {
     margin-top: 50px;
-    transition: height 2s ease-in-out, width 2s ease-in-out, box-shadow 2s ease-in;
+    transition: height 2s ease-in-out, box-shadow 2s ease-in;
     text-align: center;
     background-color: #4C0518;
     box-shadow: none;
@@ -211,15 +203,25 @@ html::-webkit-scrollbar-thumb:hover {
 .information {
     margin-top: 80px;
     text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .extrabutton:hover {
-    height: 300px;
-    width: 220px;
+    height: 75%;
     box-shadow: 0px 0px 40px #D70940;
 }
 .extraheadings {
     justify-content: center;
     
+}
+
+#info {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    font-size: 2em;
+    margin-bottom: 25%;
 }
     
 /* -------End----------*/
