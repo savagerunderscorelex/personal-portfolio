@@ -1,6 +1,8 @@
  # Overview
 Now that I have one project under my belt, I decided to create a personal portfolio that includes my personal projects, coding experience, and other things about myself. This is not the most professional looking personal portfolio, but I wanted to try out my skills at HTML and CSS and also learn a bit of Javascript along the way. Making this project was a learning experience that I liked a lot!
 
+![demo image](demo-image.png)
+
 # Content
 This portfolio website includes links to some of my profiles, information about my extracurriculars, information about my hobbies and interests, and also information about the projects that I've made before (which are only one project).
 
